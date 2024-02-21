@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Élite News</title>
+    <style>
+        /* Estilos para el encabezado */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: black; /* Cambiar el color de fondo del encabezado a negro */
+        }
+
+        /* Estilos para el título */
+        .site-title {
+            margin: 0;
+            flex-grow: 1;
+            text-align: center;
+            color: white; /* Cambiar el color del texto a blanco */
+        }
+
+        /* Estilos para el cuadro rojo */
+        .red-box {
+            background-color: red;
+            padding: 5px 10px; /* Añadir espacio interno al cuadro */
+            border-radius: 5px; /* Añadir bordes redondeados al cuadro */
+            color: white; /* Cambiar el color del texto a blanco */
+            font-style: italic; /* Estilo de letra cursiva */
+            display: inline-block; /* Ajustar el tamaño del cuadro al contenido */
+        }
+
+        /* Estilos para el texto debajo del encabezado */
+        .sub-header {
+            text-align: center; /* Centrar el texto */
+            color: white; /* Cambiar el color del texto a blanco */
+            padding: 20px; /* Añadir espacio alrededor del texto */
+            background-image: url('Carros.png'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Establecer la imagen de fondo y un degradado negro semi-transparente */
+            background-size: cover; /* Ajustar el tamaño de la imagen de fondo para cubrir todo el contenedor */
+            background-position: center; /* Centrar la imagen de fondo */
+            min-height: 60vh; /* Establecer la altura mínima del contenedor para ocupar toda la pantalla */
+            background-attachment: fixed; /* Mantener la imagen de fondo fija mientras se desplaza la página */
+            position: relative; /* Establecer posición relativa para el contenedor */
+        }
+
+        /* Estilos para el texto del título */
+        .title {
+            color: red; /* Color rojo */
+            font-size: 32px; /* Tamaño de fuente grande */
+            font-weight: bold; /* Negrita */
+            margin-top: 20px; /* Margen superior */
+            position: absolute; /* Establecer posición absoluta */
+            top: 80%; /* Mover el título hacia abajo en un 80% del contenedor */
+            left: 50%; /* Centrar el título horizontalmente */
+            transform: translate(-50%, -50%); /* Centrar el título verticalmente y horizontalmente */
+            z-index: 1; /* Asegurar que el título esté por encima de la imagen de fondo */
+        }
+
+        /* Estilos para la imagen adicional */
+        .additional-image {
+            display: block; /* Mostrar la imagen como bloque */
+            margin: 20px auto; /* Centrar la imagen horizontalmente */
+            width: 50%; /* Modificar el ancho de la imagen al 50% del contenedor */
+            height: auto; /* Permitir que la altura se ajuste automáticamente */
+        }
+
+        /* Estilos para el texto adicional */
+        .additional-text {
+            text-align: center; /* Centrar el texto */
+            color: black; /* Color del texto negro */
+            margin-top: 20px; /* Margen superior */
+            padding: 20px; /* Espaciado interno */
+            background-color: white; /* Color de fondo blanco */
+            border-radius: 10px; /* Bordes redondeados */
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1 class="site-title">
+            <a href="Blog.html" style="text-decoration: none; color: white;">
+                <span class="red-box">INICIO DE SESION</span> <!-- Encerrar "INICIO DE SESIÓN" en un cuadro rojo -->
+            </a>
+        </h1>
+    </header>
+
+    <!-- Contenido principal con la imagen de fondo "Carros.png" y la imagen adicional -->
+    <div class="sub-header">
+        <div class="red-text">NADA ES IMPOSIBLE</div> <!-- Texto "NADA ES IMPOSIBLE" dentro del cuadro rojo -->
+        <p>¡Descubre y Explora tu máximo potencial!</p>
+        <img src="YO.png" alt="Imagen de 'YO'" class="my-image"> <!-- Imagen "YO.png" -->
+        <div class="image-text">
+            <p>4 METODOS PARA GENERAR DINERO SEGURO ‼️</p>
+            <p>💰 BOLSA DE 6000USD PARA PREMIAR TU ESFUERZO MES A MES 💰</p>
+        </div>
+        <div class="discount-box">Últimos espacios con 50% de descuento</div> <!-- Cuadro rojo adicional -->
+    </div>
+    
+    <!-- Título sobre la imagen -->
+    <div class="title">¿DE QUÉ TRATA MI ACADEMIA?</div>
+
+    <!-- Texto adicional -->
+    <div class="additional-text">
+        <p>Es una academia destinada y diseñada a ayudarte a explotar tu máximo potencial.</p>
+        <p>¿Como? Desde tu persona, desde tu desarrollo interno y posteriormente ir enseñándote las habilidades para monetizar desde cero!</p>
+        <p>¿Porque primero nosotros antes del dinero?</p>
+        <p>Te quiero explicar desde el ejemplo, hace un año estaba quebrado, arruinado y con una gran depresión... ¡ME QUEDE EN CERO!</p>
+        <p>Después logre recuperar todo en tiempo record, porque trabaje en mi.</p>
+        <p>Y como te mencione, te ayudare a generar dinero desde el dia 1 de una manera totalmente segura, desde tu celular y hasta dormido recibirás las ganancias!</p>
+    </div>
+    
+</body>
+</html>
